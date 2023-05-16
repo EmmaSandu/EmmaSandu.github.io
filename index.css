@@ -2,8 +2,10 @@
         font-family: Arial, sans-serif;
         font-size: 16px;
         line-height: 1.5;
-        
+		background-color: #FCEFF0;
       }
+
+
 
       head {
         color: #blue;
@@ -12,10 +14,24 @@
       }
 
       h1 {
-		color: #green;
+		font-family: Georgia, serif;
+		color: #c71221;
         font-size: 36px;
+		text-align: center;
         margin-top: 0;
       }
+	  
+	  h2 {
+		 font-family: Georgia, serif; 
+		 text-align: center;
+		  
+	  }
+	  
+	  h4{
+		 text-align: center; 
+		  
+	  }
+	  
 
       main {
         padding: 20px;
@@ -23,17 +39,35 @@
 
       p {
         margin-bottom: 20px;
+		justify-content: center;
       }
 
  body {
         font-family: Arial, sans-serif;
         font-size: 16px;
         line-height: 1.5;
-        margin: 0;
-        padding: 0;
+       // margin: 0;
+       // padding: 0;
+		
+		 max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 16px;
+  padding-right: 16px;
+  justify-content: center;
+  
+  border: 2px solid red;
+  border-radius: 30px;
       }
 
       .centered-text {
-        text-align: center;
+		font-family: Arial,serif;
         margin-top: 50px;
+		margin-bottom: 50px;
+		margin-left:80px;
+		margin-right:80px;
+		
+  
       }
+	  
+	  
