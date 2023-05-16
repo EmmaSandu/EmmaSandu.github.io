@@ -1,7 +1,7 @@
 # EmmaSandu.github.io - Bilingual website
 
 This is a simple website that is currently under construction. 
-It serves as an informative platform for readers who are interested in exploring and learning more about my university work. 
+It serves as an informative platform for readers who are interested in exploring and learning more about my academic work. 
 
 ## Elements: 
 
