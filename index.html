@@ -1,25 +1,249 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css">
-	<!--Favicons-->
-	<link rel="shortcut icon" href="images/Ema.ico" type="images/x-icon">
-    <title>Emma Sandu</title>
-</head>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Hello, Books!</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <link href="index.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    </head>
 <body>
-    <div class="centered-text">
-    <h1>Hello everyone!</h1>
-    <h2> On this website, you are going to find my studies about political changes in Romania. Down below is only an abstract sample.</h2>
-    <h3>Social media and politics: the role of Facebook in the rise of new political parties</h3>
-<p>Social media’s power to influence elections and governmental policies has made it an essential player in the modern democratic world. Through websites, personal blogs and social media accounts, contemporary politicians build and strengthen their public image, reach different categories of voters and supplement their offline strategies in a cost-effective manner. This paper explores whether social media affected the outcome of the parliamentary elections in Romania in 2016, enabling Save Romania Union (USR), a newly formed faction with limited political experience, to become the third favourite option. The study examines the public posts on the party’s Facebook page from January to November 2016, taking into account status updates, infographics, photos and videos about their campaign activities or the opponents’ shortcomings. Findings showed that the faction’s digital presence increased its popularity in a short period of time and successfully involved previously uninterested young citizens in political matters.</p>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 
+    <!--Point 2- Navbar -->
 
-<h4>This website is under construction...</h4>
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container-fluid">
+        <i class="bi bi-book-half"></i>
+        <a class="navbar-brand" href="#">Reading List</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarScroll">
+          <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.penguin.co.uk/genres/fiction-books/poetry" target="_blank">My books</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Browse
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="https://www.penguin.co.uk/search-results?tab=authors" target="_blank">Authors</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="https://shop.penguin.co.uk/?&amp;utm_source=Penguin.co.uk&amp;utm_medium=Linked_text&amp;utm_campaign=Menu_-_most_viewed_23_07" target="_blank">Bestsellers</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="https://www.penguin.co.uk/search-results?tab=articles&amp;articleType=Post" target="_blank">Most Viewed</a>
+                </li>
+                <li><hr class="dropdown-divider"></li>
+                <li>
+                  <a class="dropdown-item" href="https://www.penguin.co.uk/genres/fiction-books/classics" target="_blank">Classics</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="https://www.penguin.co.uk/genres/fiction-books/crime-thrillers-mystery" target="_blank">Crime</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="https://www.penguin.co.uk/genres/non-fiction-books/history" target="_blank">History</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="https://www.penguin.co.uk/genres/fiction-books/romance" target="_blank">Romance</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="https://www.penguin.co.uk/genres/non-fiction-books/biographies" target="_blank">Biography</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search books..." aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
 
-<img src="images/under.jpg" alt="localisation image"/>
-</div>
+    <div class="container text-center">
+      <div class="row">
+        <div class="col-sm-12">
+          <h1 class="display-2">
+            <div class="my-leg-4">Hello, books!</div>
+            <!--With the class “my-lg-4” we assigned responsive-friendly margins values to the title in question. The “m” set the margin, the “y” sets the top and the bottom, the “l” set the margin-left, and the “4”set the margin or padding to $spacer * 1.5.-->
+            <i class="bi bi-balloon-heart"></i>
+            <i class="bi bi-balloon-heart-fill"></i>
+            <i class="bi bi-balloon-heart"></i>
+            <i class="bi bi-balloon-heart-fill"></i>
+            <i class="bi bi-balloon-heart"></i>
+            <i class="bi bi-balloon-heart-fill"></i>
+          </h1>
+          <p class="lead">
+            In the 11th century, a Japanese woman known as Murasaki Shikibu
+            wrote “The Tale of Genji,” a 54-chapter story of courtly seduction
+            believed to be the world’s first novel. Over 1,000 years later,
+            people the world over are still engrossed by novels — even in an era
+            where stories appear on handheld screens and disappear 24 hours
+            later. What exactly do human beings get from reading books? Is it
+            just a matter of pleasure, or are there benefits beyond enjoyment?
+            The scientific answer is a resounding “yes.” Reading books benefits
+            both your physical and mental health, and those benefits can last a
+            lifetime. They begin in early childhood and continue through the
+            senior years. Here’s a brief explanation of how reading books can
+            change your brain — and your body — for the better.
+          </p>
+        </div>
+      </div>
+      <!--Point 6 -->
+      <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://wp.penguin.co.uk/wp-content/uploads/2022/11/Vintage-14.11.221497-575x335-1-2048x1193.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h3>Fifteen non-fiction books to inspire you</h3>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="https://wp.penguin.co.uk/wp-content/uploads/2022/10/1800_x_1200.jpg" class="d-block w-100" alt="history books">
+            <div class="carousel-caption d-none d-md-block">
+              <h3>13 essential Vintage books for Black History Month</h3>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="https://wp.penguin.co.uk/wp-content/uploads/2023/10/Spooky-Reads_Hero-Desktop_Penguin.jpg" class="d-block w-100" alt="Brandon Tyler writer">
+            <div class="carousel-caption d-none d-md-block">
+              <h3>
+                Beautiful horror books from our Clothbound Classics collection
+              </h3>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+
+    <!--Point 3 Grid et Point 5 Conteneurs CARD -->
+
+    <div class="container text-center">
+      <div class="row">
+        <div class="col-sm-3">
+          <div class="card" style="width: 18rem">
+            <img src="https://cdn.penguin.co.uk/dam-assets/books/9781784742324/9781784742324-jacket-large.jpg" class="card-img-top" alt="generic image with books">
+            <div class="card-body">
+              <h5 class="card-title">Margaret Atwood</h5>
+              <p class="card-text">
+                Margaret Atwood’s dystopian masterpiece, The Handmaid’s Tale, is
+                a modern classic. Now she brings the iconic story to a dramatic
+                conclusion in this riveting sequel.
+              </p>
+              <a href="https://www.penguin.co.uk/authors/181207/margaret-atwood" target="_blank" class="btn btn-primary">Currently reading</a>
+              <!--Point 7 / classe contextuelle - button -->
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="card" style="width: 18rem">
+            <img src="https://cdn.penguin.co.uk/dam-assets/books/9780241984758/9780241984758-jacket-medium.jpg" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">The Catcher in the Rye</h5>
+              <p class="card-text">
+                In honour of the centennial of the birth of J.D. Salinger in
+                1919, Penguin reissues all four of his books in beautiful
+                commemorative hardback editions.
+              </p>
+              <a href="https://www.penguin.co.uk/books/21252/the-catcher-in-the-rye-by-salinger-jd/9780241984758" target="_blank" class="btn btn-danger">To-be read</a>
+              <!--Point 7 / classe contextuelle - button -->
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="card" style="width: 18rem">
+            <img src="https://cdn.penguin.co.uk/dam-assets/books/9780241654149/9780241654149-jacket-large.jpg" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">The Big Sleep &amp; Farewell, My Lovely</h5>
+              <p class="card-text">
+                There are no streets meaner than those of L.A.'s underworld -
+                but luckily one detective has more than his fair share of street
+                smarts.
+              </p>
+              <a href="https://www.penguin.co.uk/books/458593/the-big-sleep-and-farewell-my-lovely-by-chandler-raymond/9780241654149" class="btn btn-success">Read</a>
+              <!--Point 7 / classe contextuelle - button -->
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="card" style="width: 18rem">
+            <img src="https://cdn.penguin.co.uk/dam-assets/books/9781784878252/9781784878252-jacket-large.jpg" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">Misunderstanding in Moscow</h5>
+              <p class="card-text">
+                A captivating novella about long-term relationships, getting
+                older and how to live a good life, by the great Simone de
+                Beauvoir.
+              </p>
+              <a href="https://www.penguin.co.uk/books/452403/misunderstanding-in-moscow-by-beauvoir-simone-de/9781784878252" class="btn btn-secondary">Abandoned</a>
+              <!--Point 7 / classe contextuelle - button -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--To create a row with 4 responsive contents, I used the "col-sm" class, a responsive breakpoint 
+        class that helps display content based on the device size. Thus, for screens up to 576px, the 
+        columns are displayed horizontally, and for screens smaller than 576px, they are displayed stacked.-->
+
+    <!--Point 4-->
+
+    <div class="row">
+      <div class="col-sm-2">
+        <figure class="text-end">
+          <blockquote class="blockquote">
+            <p class="display-9">
+              "Reading furnishes the mind only with materials of knowledge; it
+              is thinking that makes what we read ours."
+            </p>
+          </blockquote>
+          <figcaption class="blockquote-footer">
+            For every reader.<cite title="Source Title">Author: John Locke.</cite>
+          </figcaption>
+        </figure>
+        <br>
+      </div>
+      <!-- Point 9 - Blockquote -->
+      <div class="col-sm-9"><h3>If you want to contact us</h3>
+        <i class="bi bi-facebook"></i>
+        <i class="bi bi-instagram"></i>
+        <i class="bi bi-linkedin"></i>
+        <i class="bi bi-twitch"></i>
+        <i class="bi bi-twitter-x"></i></div>
+    </div>
+    <!--To create a row with 2 predefined width contents, I used the <div class="col-sm-2"> class, 
+        which will make this content appear on 2/12 columns, and <div class="col-sm-4"> for 4/12 columns. 
+        The col-sm class helps us display the content side by side for screens up to 576px and stacked for screens smaller than 576px.-->
+    <div class="alert alert-primary" role="alert">
+      This website is updated to 1.0.1 version.
+    </div>
+    <!-- Point 7 - classe contextuelle / alerte -->
+  
+
 </body>
 </html>
-
